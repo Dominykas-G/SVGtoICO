@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SvgIcoConverter": {
+      "commandName": "Project",
+      "commandLineArgs": "\"-f C:\\Users\\dominykas.gudavicius\\Desktop6\\New_folder\\LC_1024_px-242.Svg\" \"-d C:\\Users\\dominykas.gudavicius\\Desktop\\New_folder\\output2\""
+    }
+  }
+}
