@@ -1,6 +1,6 @@
 # SVGtoICO
 
-SVGtoICO converts .svg files to .ico files by creating intermediate 16x16, 32x32, 48x48, 128x128 and 256x256 .bmp files which are later deleted.
+SVGtoICO converts .svg files to .ico files by creating intermediate 16x16, 32x32, 48x48, 128x128 and 256x256 px .bmp files which are later deleted.
 
 ## Flags
 
