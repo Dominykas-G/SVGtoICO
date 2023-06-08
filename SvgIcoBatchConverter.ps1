@@ -1,8 +1,11 @@
-$inputFolderPath = "\\K2dwp07fis004\topas\libra\vbut\svg_icons"  
-$outputFolderPath = "\\K2dwp07fis004\topas\libra\vbut\svg_icons\out"
-$input16pxFile = "C:\Users\dominykas.gudavicius\Desktop\New_folder\LC_logo_16.png"
+# This script recursively scans a selected folder and converts all .svg files to an .ico
+# input folder and executable path is compulsory
 
-$executablePath = "C:\Users\dominykas.gudavicius\source\repos\SvgIcoConverter\SvgIcoConverter\bin\Release\net6.0\SvgIcoConverter.exe"  
+$inputFolderPath = "C:\Users\user\input_folder"  
+$outputFolderPath = "C:\Users\user\output_folder"
+$input16pxFile = "C:\Users\user\file.png"
+
+$executablePath = "C:\Users\user\path\SvgIcoConverter.exe"  
 
 Get-ChildItem -Path $inputFolderPath -Filter "*.svg" -Recurse | ForEach-Object {
     $fileName = $_.Name
